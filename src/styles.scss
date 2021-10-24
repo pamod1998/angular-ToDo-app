@@ -2,6 +2,12 @@
 
 @import '../node_modules//bulma/bulma.sass';
 
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 0; }
+
+
 .alt-gradiant-button {
     border: none;
     background: linear-gradient(to right, rgb(236, 72, 140), rgb(240, 54, 82));
@@ -22,6 +28,7 @@
     &:focus {
         color: white;
         opacity: 1;
+
     }
 
     i.material-icons {
